@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: url('/assets/backphoto.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.center-div{
+    padding-top: 10%;
+
+}
+.btn.btn-success{
+    padding: .4em 2em;
+}
+form{
+    padding: 0 3em;
+}
+#login.title>span{
+    font-size: .8em;
+}
+
+
+
+/* Custom css */
+
+.bg-span{
+    /* background: rgb(172, 171, 171); */
+    color: rgb(252, 59, 172);
+    padding: 5px;
+    border-radius: 16px;
+}
+
+.form-group input{
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background: none;
+    outline: none;
+}
+
+.form-group input::placeholder{
+    color: grey;
+    font-weight: 800;
+}
+.btn{
+    font-weight: 700;
+}
